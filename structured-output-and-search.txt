@@ -1,0 +1,15 @@
+2026-11-23T08:11:34.157Z generateObject anthropic/claude-sonnet-5.5 {"from":"Paris","to":"Tokyo","year":2024}
+2026-11-23T08:11:35.771Z generateObject openai/gpt-6.1-sol {"from":"Paris","to":"Tokyo","year":2024}
+2026-11-23T08:11:38.494Z generateObject google/gemini-3.5-flash {"from":"Paris","to":"Tokyo","year":2024}
+2026-11-23T08:11:43.569Z chat response_format json_schema anthropic/claude-sonnet-5.5 "in_progress{\"city\":\"Paris\"}"
+2026-11-23T08:11:55.975Z chat response_format json_schema openai/gpt-6.1-sol "in_progress{\"city\":\"Paris\"}"
+2026-11-23T08:11:58.415Z chat enabledSearch anthropic/claude-sonnet-5.5 "in_progressI can't check that: I don't have live web access in this chat, and a headline from memory would be out of date or made up. You can see it at bbc.com/news, or turn on web search in settings "
+2026-11-23T08:12:03.211Z chat enabledSearch openai/gpt-6.1-sol "(answer without a search: I can’t access live headlines right now…)"
+requests:
+responses text={"format":{"strict":true,"type":"json_schema","name":"trip","schema":{"type":"object","additionalProperties":false,"properties":{"from":{"type":"string"},"to":{"type":"string"},"year":{"type":"integer"}},"required":["from","to","year"]}}} tools=[] rf=0
+responses text={"format":{"strict":true,"type":"json_schema","name":"trip","schema":{"type":"object","additionalProperties":false,"properties":{"from":{"type":"string"},"to":{"type":"string"},"year":{"type":"integer"}},"required":["from","to","year"]}}} tools=[] rf=0
+responses text={"format":{"strict":true,"type":"json_schema","name":"trip","schema":{"type":"object","additionalProperties":false,"properties":{"from":{"type":"string"},"to":{"type":"string"},"year":{"type":"integer"}},"required":["from","to","year"]}}} tools=[] rf=0
+responses text={"format":{"type":"json_schema","name":"city","strict":true,"schema":{"type":"object","additionalProperties":false,"properties":{"city":{"type":"string"}},"required":["city"]}}} tools=[] rf=0
+responses text={"format":{"type":"json_schema","name":"city","strict":true,"schema":{"type":"object","additionalProperties":false,"properties":{"city":{"type":"string"}},"required":["city"]}}} tools=[] rf=0
+responses text=null tools=["web_search"] rf=0
+responses text=null tools=["web_search"] rf=0
